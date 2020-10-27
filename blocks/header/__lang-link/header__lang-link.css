@@ -1,0 +1,12 @@
+.header__lang-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+.header__lang-link:last-child{
+    text-decoration: none;
+}
