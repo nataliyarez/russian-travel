@@ -6,7 +6,9 @@
     text-align: right;
     text-decoration-line: underline;
     color: #FFFFFF;
+
 }
 .header__lang-link:last-child{
     text-decoration: none;
+    padding-left: 18px;
 }
