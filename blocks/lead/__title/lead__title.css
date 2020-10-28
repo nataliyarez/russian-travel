@@ -1,0 +1,11 @@
+.lead__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 110%;
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 16px;
+}
