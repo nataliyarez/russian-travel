@@ -7,6 +7,5 @@
     color: #FFFFFF;
     margin: 0;
     padding-top: 16px;
-    max-width: 270px;
-    align-self: center;
+    z-index: 2;
 }
