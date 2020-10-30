@@ -4,30 +4,28 @@
     list-style: none;
     padding: 0;
     grid-row-gap: 12px;
-    grid-column-gap: 1.3vw;
-    margin: 0;
+    grid-column-gap: 14px;
+    margin: 0 0 64px 0;
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 768px) {
     .photo-grid {
         grid-column-gap: 16px;
-        padding-left: 8px;
-        padding-right: 8px;
+        margin: 0 0 88px 0;
     }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1024px) {
     .photo-grid {
         grid-column-gap: 14px;
-        padding-left: 32px;
-        padding-right: 32px;
+        margin: 0 0 92px 0;
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
     .photo-grid {
         grid-column-gap: 16px;
-        padding-left: 32px;
-        padding-right: 32px;
+        margin-left: -100px;
+        margin-right: -100px;
     }
 }

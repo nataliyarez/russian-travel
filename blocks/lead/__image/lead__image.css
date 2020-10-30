@@ -1,41 +1,31 @@
 .lead__image {
     background-image:url(../../../sprint-3-images/lead-polka-way.jpg);
-    background-size: 320px 200px;
-    width: 320px;
+    background-size: cover;
+    background-position: center;
     height: 200px;
     margin-left: -16px;
     margin-right: -16px;
     margin-top: 40px;
+    max-width: 984px;
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 768px) {
     .lead__image {
-        background-size: 768px 480px;
-        width: 768px;
         height: 480px;
-        align-self: center;
-        margin: 56px 0 0 0;
+        margin: 56px -24px 0 -24px;
     }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1024px) {
     .lead__image {
-        width: 928px;
         height: 580px;
-        background-size: 928px 580px;
-        background-position:center;
-        align-self: center;
         margin: 56px 0 0 0;
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
     .lead__image {
-        width: 984px;
         height: 615px;
-        background-size: 984px 615px;
-        background-position:center;
-        align-self: center;
         margin: 64px 0 0 0;
     }
 }
