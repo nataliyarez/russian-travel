@@ -6,5 +6,28 @@
     text-align: center;
     color: #FFFFFF;
     margin: 0;
+    padding-top: 33px;
     z-index: 2;
+    width: 288px;
+    align-self: center;
+}
+@media screen and (min-width: 768px) {
+    .cover__title {
+        font-size: 72px;
+        line-height: 76px;
+        padding-top: 115px;
+        width: 560px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cover__title {
+        padding-top: 195px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .cover__title {
+        padding-top: 245px;
+    }
 }

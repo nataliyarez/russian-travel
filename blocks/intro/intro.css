@@ -1,0 +1,22 @@
+.intro {
+    margin-bottom: 64px;
+}
+@media screen and (min-width: 768px) {
+    .intro {
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .intro {
+        margin-bottom: 92px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .photo-grid {
+        grid-column-gap: 16px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
