@@ -4,6 +4,7 @@
     padding-left: 16px;
     padding-right: 16px;
     font-family: 'Inter', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 @media screen and (min-width: 768px) {
     .page {

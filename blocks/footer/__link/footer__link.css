@@ -10,8 +10,6 @@
 }
 .footer__link:hover {
     opacity: 0.8;
-}
-.footer__link:hover {
     cursor: pointer;
 }
 
