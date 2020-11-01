@@ -1,0 +1,23 @@
+.place__link {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .place__link {
+        display: block;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        text-decoration-line: underline;
+        color: #FFFFFF;
+        transition: opacity 0.3s ease;
+    }
+    .place__link:hover {
+        opacity: 0.8;
+    }
+
+    .place__link:hover {
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,9 @@
+.place__website{
+
+}
+
+@media screen and (min-width: 768px) {
+    .place__website {
+        grid-area: place__website;
+    }
+}
