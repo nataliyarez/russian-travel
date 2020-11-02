@@ -13,4 +13,7 @@
 
 * [Ссылка на проект в GitHub](https://github.com/nataliyarez/russian-travel)
 
+**GH-pages**
+
+* [Ссылка на готовый проект](https://nataliyarez.github.io/russian-travel/)
 

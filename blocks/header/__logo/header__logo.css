@@ -1,13 +1,10 @@
 .header__logo {
-   background-image: url(../../../sprint-3-images/header-logo.svg);
-    background-size: 142px 42px;
     width: 142px;
     height: 42px;
 }
 
 @media screen and (min-width: 768px) {
     .header__logo {
-        background-size: 176px 52px;
         width: 176px;
         height: 52px;
     }

@@ -4,8 +4,8 @@
     background-position: center;
     margin-left: -16px;
     margin-right: -16px;
-    height: 200px;
-    max-width: 1184px;
+    min-height: 200px;
+    width: 320px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -27,32 +27,35 @@
 
 @media screen and (min-width: 768px) {
     .cover__background {
-        height: 480px;
+        min-height: 480px;
         margin-left: -24px;
         margin-right: -24px;
+        width: 768px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .cover__background {
-        height: 640px;
+        min-height: 640px;
         margin-left: -48px;
         margin-right: -48px;
+        width: 1024px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .cover__background {
-        height: 740px;
+        min-height: 740px;
         margin-left: -100px;
         margin-right: -100px;
+        width: 1184px;
         /*margin: 0 auto;*/
 
     }
     .cover__background:hover:before {
         opacity: 0.8;
     }
-    .place__link:hover {
+    .cover__background:hover {
         cursor: pointer;
     }
 }
